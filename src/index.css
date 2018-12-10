@@ -727,6 +727,23 @@ display:none;
   }
 }
 
+@media screen and (min-width: 1530px){
+  .test-hr{
+    width: 68.5%;
+  }
+}
+
+@media screen and (min-width: 1550px){
+  .test-hr{
+    width: 69%;
+  }
+}
+@media screen and (min-width: 1650px){
+  .test-hr{
+    width: 70%;
+  }
+}
+
 @media screen and (min-width:1680px){
   .container{
     width: 70%;
