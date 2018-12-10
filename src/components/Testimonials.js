@@ -22,7 +22,7 @@ class Testimonials extends Component{
                             passionate about his work. His UX skills are beyond his years & his commitment and work 
                             ethic makes it easy to collaborate with him.
                             </p>
-                            <h4 className="test-h">Bargava Subramnian, Founder - Impel Labs Pvt. Ltd.</h4>
+                            <h4 className="test-h">Bargava Subramnian, CEO - Impel Labs Pvt. Ltd.</h4>
                         </div>
                         <div className="item">
                             <img className="test-img" src={Varun} alt="Varun Pai"/>
