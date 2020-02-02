@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,11 +8,11 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: Montserrat !important; 
-  -webkit-font-family: Montserrat !important; 
+  font-family: Montserrat !important;
+  -webkit-font-family: Montserrat !important;
 }
 
-.navbar-default{
+.navbar-default {
   background-color: #151515;
   border: 0 !important;
   border-radius: 0;
@@ -21,37 +21,37 @@ body {
   margin-bottom: 0;
 }
 
-.test-h{
+.test-h {
   text-transform: capitalize !important;
-} 
+}
 
-.back{
+.back {
   background: none;
   border: none;
 }
 
-.navbar-brand > img{
+.navbar-brand>img {
   width: 200px;
   margin-left: -15px;
 }
 
-.navbar-right>li>a{
+.navbar-right>li>a {
   font-weight: bold !important;
-  color: #fff !important;
+  color: #000 !important;
   margin: 20px 15px;
   font-size: 16px;
   text-align: center;
 }
 
-.navbar{
+.navbar {
   border: none !important;
 }
 
-.navbar-default .navbar-toggle .icon-bar{
+.navbar-default .navbar-toggle .icon-bar {
   background-color: #fff;
 }
 
-.contact-nav{
+.contact-nav {
   border-radius: 46px;
   margin-top: 22px !important;
   padding: 10px !important;
@@ -59,47 +59,49 @@ body {
 }
 
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
   background-color: transparent;
 }
 
-.navbar-toggle{
+.navbar-toggle {
   margin-top: 25px;
   border: none;
   color: #fff;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
   border-color: #151515;
   border: none !important;
 }
 
 /* hero section */
 
-img{
+img {
   max-width: 100%;
 }
 
-.hero-img{
+.hero-img {
   margin: -10px auto auto 40px;
 }
 
-.hero{
+.hero {
   color: #151515;
   background-color: #fff;
   height: 100%;
   padding-bottom: 80px;
 }
 
-.hero-tag>strong{
+.hero-tag>strong {
   margin-left: 3px;
 }
 
-.buttons{
+.buttons {
   margin: 65px auto !important;
 }
 
-.buttons>a:first-child{
+.buttons>a:first-child {
   background-color: #151515;
   color: #fff;
   text-transform: uppercase;
@@ -108,7 +110,8 @@ img{
   margin-right: 25px;
   border: 3px solid #151515;
 }
-.buttons>a:nth-child(even){
+
+.buttons>a:nth-child(even) {
   background-color: transparent;
   border: 2px solid #151515;
   color: #000;
@@ -117,58 +120,62 @@ img{
   border-radius: 8px;
 }
 
-.socials>a,.socials>a:hover,.socials>a:focus,.socials>a:active{
+.socials>a,
+.socials>a:hover,
+.socials>a:focus,
+.socials>a:active {
   color: #151515;
   text-decoration: none !important;
   margin-right: 30px;
 }
 
-.hero-tag{
+.hero-tag {
   font-size: 36px;
 }
 
-.about-tag{
+.about-tag {
   font-size: 16px;
   margin: 45px auto 45px;
   line-height: 35px;
 }
 
-.container{
+.container {
   width: 70%;
 }
 
 /* work section */
 
-.work{
+.work {
   color: #151515;
   text-align: center;
   /* padding-bottom: 50px; */
   /* height: 100vh; */
 }
 
-.work-p{
+.work-p {
   font-size: 16px;
   text-align: left;
   line-height: 30px;
   margin: -20px auto 30px;
 }
 
-.work-tag,.work-name{
+.work-tag,
+.work-name {
   font-weight: bold;
 }
 
-.back1{
+.back1 {
   margin-right: 85px;
 }
 
-.work-tag{
+.work-tag {
   margin: 30px auto;
   font-size: 32px;
   text-align: left;
 }
 
 
-.work-company{
+.work-company {
   letter-spacing: 0.24px;
   font-weight: lighter;
   margin-top: 15px;
@@ -176,11 +183,14 @@ img{
   padding-left: 2px;
 }
 
-.work-name{
+.work-name {
   font-size: 20px;
 }
 
-.thumbnail,.thumbnail:hover,.thumbnail:focus,.thumbnail:active{
+.thumbnail,
+.thumbnail:hover,
+.thumbnail:focus,
+.thumbnail:active {
   border-radius: 20px;
   padding: 75px 15px;
   color: #151515;
@@ -190,88 +200,90 @@ img{
   text-decoration: none !important
 }
 
-.ui-thumb>h1{
+.ui-thumb>h1 {
   font-weight: bold;
   font-size: 24px;
 }
 
-.ui-thumb{
+.ui-thumb {
   margin-bottom: 45px;
 }
 
 /* testimonial section */
-.testimonial{
+.testimonial {
   /* height: 100vh; */
   background-color: #fff;
   padding-bottom: 10px;
 }
 
-.carousel{
+.carousel {
   text-align: center;
   color: #151515;
 }
 
-.item{
-  min-height: 450px 
+.item {
+  min-height: 450px
 }
 
 /* .carousel .item{
   min-height: 280px; 
 } */
 
-.test-p{
+.test-p {
   width: 70%;
   margin: 25px auto;
   line-height: 30px;
   font-size: 18px;
 }
 
-.test-h{
+.test-h {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 18px;
 }
 
-.test-img{
-  margin : 50px auto 50px;
+.test-img {
+  margin: 50px auto 50px;
   border-radius: 50%;
   width: 144px;
   /* border: 5px solid #fff; */
 }
 
-.carousel-control.right,.carousel-control.left{
+.carousel-control.right,
+.carousel-control.left {
   background-image: none;
   color: #151515;
 }
 
-.carousel-indicators>li,.carousel-indicators .active{
-  margin-top: 50vh !important ;
+.carousel-indicators>li,
+.carousel-indicators .active {
+  margin-top: 50vh !important;
   margin-right: 5px;
 }
 
-.carousel-indicators>li{
+.carousel-indicators>li {
   opacity: 0.5;
-  background-color: #151515; 
+  background-color: #151515;
 }
 
-.carousel-indicators>.active{
+.carousel-indicators>.active {
   opacity: 1;
   background-color: #151515;
 }
 
-.carousel-control{
+.carousel-control {
   margin-top: 05vh;
 }
 
-.test-hr{
+.test-hr {
   border: 0.5px solid #151515;
   /* margin-top: 10vh; */
   width: 75%;
-  
-  margin: 5vh auto 
+
+  margin: 5vh auto
 }
 
-.bottom{
+.bottom {
   color: #151515;
   background-color: #fff;
   text-decoration: none;
@@ -281,22 +293,23 @@ img{
   padding-bottom: 50px;
 }
 
-.bottom-h3{
+.bottom-h3 {
   font-weight: bold;
   margin-top: 25px;
 }
 
-.bottom-h3>a,.bottom-a>a{
-  color: #151515; 
+.bottom-h3>a,
+.bottom-a>a {
+  color: #151515;
   text-decoration: none;
 }
 
-.bottom-icons>a{
-  color :#151515;
+.bottom-icons>a {
+  color: #151515;
   margin-right: 15px;
 }
 
-.back{
+.back {
   color: #151515;
   text-transform: uppercase;
   font-weight: 500;
@@ -306,591 +319,752 @@ img{
 
 /* mobile phones */
 
-@media screen and (device-width: 320px){
-  .hero-tag{
+@media screen and (device-width: 320px) {
+  .hero-tag {
     font-size: 2.1em !important;
-  } 
-  .container{
+  }
+
+  .container {
     width: 100%;
   }
 
-  .about-tag{
+  .about-tag {
     font-size: 14px !important;
     line-height: 25px;
     margin-top: 4px;
   }
-  .buttons>a{
+
+  .buttons>a {
     font-size: 12px !important;
     padding: 8px 10px !important;
   }
-  .navbar-default{
-    padding: 10px 0px ;
+
+  .navbar-default {
+    padding: 10px 0px;
   }
-  .navbar-brand>img{
+
+  .navbar-brand>img {
     width: 180px;
     margin-left: auto !important
   }
-  .practo-h1{
+
+  .practo-h1 {
     font-size: 24px;
   }
-  .hero-img{
+
+  .hero-img {
     /* display: none; */
-    margin : 20px auto;
+    margin: 20px auto;
     width: 80%;
     display: block;
     /* overflow-x: hidden; */
   }
-  .mac{
+
+  .mac {
     display: none;
   }
-  .work{
+
+  .work {
     height: auto;
   }
-  .work-p{
+
+  .work-p {
     width: 100%;
     font-size: 14px;
-    margin:-25px auto 25px;
+    margin: -25px auto 25px;
   }
-  .item{
+
+  .item {
     min-height: 575px;
   }
-  .buttons>a:first-child{
+
+  .buttons>a:first-child {
     margin-right: 10px;
   }
-  .test-p{
+
+  .test-p {
     width: 80%;
   }
-  .test-h{
+
+  .test-h {
     margin: 60px auto;
   }
-  .socials>a{
+
+  .socials>a {
     margin-right: 15px;
   }
-  .hero{
+
+  .hero {
     padding-bottom: 20px;
   }
-  .bottom{
+
+  .bottom {
     padding-left: 20px;
     padding-bottom: 30px;
   }
-  .container{
+
+  .container {
     width: 100%
   }
-  .test-p{
+
+  .test-p {
     font-size: 14px;
     line-height: 25px;
   }
-  .carousel-control{
+
+  .carousel-control {
     margin-top: -25vh;
   }
-  .test-h{
+
+  .test-h {
     font-size: 14px;
     line-height: 25px;
   }
-  .test-hr{
+
+  .test-hr {
     width: 90%
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 500px){
-  .work{
+@media screen and (min-width: 321px) and (max-width: 500px) {
+  .work {
     height: auto;
   }
 
-  .carousel-control{
+  .carousel-control {
     margin-top: -45vh;
   }
-  .ui-thumb{
+
+  .ui-thumb {
     margin-top: 25px;
     margin-bottom: 25px;
   }
-  .work-p{
+
+  .work-p {
     width: 100%;
     font-size: 14px;
-    margin:-25px auto 25px;
+    margin: -25px auto 25px;
   }
-  .navbar-default{
+
+  .navbar-default {
     padding: 10px 0;
   }
-  .navbar-toggle{
+
+  .navbar-toggle {
     margin-top: 28px;
   }
-  .navbar-brand>img{
+
+  .navbar-brand>img {
     width: 180px;
     margin-left: auto !important
   }
-  .contact-nav{
+
+  .contact-nav {
     width: 35%;
     margin: 0 auto !important;
   }
-  .hero-img{
+
+  .hero-img {
     /* display: none; */
   }
-  .hero-tag{
+
+  .hero-tag {
     font-size: 2.5em;
   }
-  .about-tag{
+
+  .about-tag {
     font-size: 16px;
     margin: 15px auto -20px;
     line-height: 30px;
   }
-  .mac{
+
+  .mac {
     display: none;
   }
-  .item{
+
+  .item {
     min-height: 575px;
   }
-  .buttons>a:first-child{
+
+  .buttons>a:first-child {
     margin-right: 10px;
   }
-  .test-p{
+
+  .test-p {
     width: 80%;
   }
-  .test-h{
+
+  .test-h {
     margin: 60px auto;
   }
-  .socials>a{
+
+  .socials>a {
     margin-right: 15px;
   }
-  .hero{
+
+  .hero {
     padding-bottom: 20px;
   }
-  .bottom{
+
+  .bottom {
     padding-left: 20px;
     padding-bottom: 30px;
   }
-  .container{
+
+  .container {
     width: 100%
   }
-  .test-hr{
+
+  .test-hr {
     width: 90%
   }
 }
 
 /* tablets and ipads */
 
-@media screen and (min-width: 501px) and (max-width: 768px){
-  .container{
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  .container {
     width: 100%
   }
-  .hero,.work{
+
+  .hero,
+  .work {
     height: auto;
   }
-  .test-hr{
+
+  .test-hr {
     width: 95%
   }
-  .contact-nav{
+
+  .contact-nav {
     width: 35%;
     margin: 0 auto !important;
   }
-  .mac{
+
+  .mac {
     display: none;
   }
-  .navbar-toggle{
+
+  .navbar-toggle {
     margin-top: 30px;
   }
-  .hero{
+
+  .hero {
     padding-bottom: 20px;
   }
-  .hero-tag{
+
+  .hero-tag {
     font-size: 4.5em;
   }
-  .thumbnail,.thumbnail:hover,.thumbnail:focus,.thumbnail:active{
+
+  .thumbnail,
+  .thumbnail:hover,
+  .thumbnail:focus,
+  .thumbnail:active {
     padding: 75px 15px;
   }
-  .item{
+
+  .item {
     min-height: 600px;
   }
-  .test-img{
+
+  .test-img {
     width: 270px;
   }
-  .test-p{
+
+  .test-p {
     width: 80%;
     font-size: 21px;
   }
-  .test-h{
+
+  .test-h {
     margin: 60px auto;
   }
-  .bottom{
+
+  .bottom {
     padding-left: 40px;
     padding-bottom: 30px;
   }
 }
 
-@media only screen and (device-width: 768px){
-  .navbar-right>li>a{
+@media only screen and (device-width: 768px) {
+  .navbar-right>li>a {
     margin-top: 25px;
     margin-right: 5px;
   }
-  .contact-nav{
+
+  .contact-nav {
     width: 100%;
     margin-top: 28.25px !important;
   }
-  .container{
+
+  .container {
     width: 100%
   }
-  }
+}
 
 
 
 /* ipad pros and similar tabs */
 
-@media screen and (min-width: 769px) and (max-width: 991px){
-  .hero,.work{
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+  .hero,
+  .work {
     height: auto;
     padding-bottom: 20px;
   }
-  .container{
+
+  .container {
     width: 100%
   }
-  .navbar-brand>img{
+
+  .navbar-brand>img {
     width: 200px;
   }
-  .navbar-right>li>a{
+
+  .navbar-right>li>a {
     margin-top: 25px;
     margin-right: 5px;
   }
-  .contact-nav{
+
+  .contact-nav {
     margin-top: 28.25px !important;
   }
-  .mac{
+
+  .mac {
     display: none;
   }
-  .hero-tag{
+
+  .hero-tag {
     font-size: 4em;
   }
-  .about-tag{
+
+  .about-tag {
     font-size: 16px;
   }
-  .buttons{
+
+  .buttons {
     font-size: 16px;
   }
-  .socials{
+
+  .socials {
     font-size: 1.5em;
   }
-  .work-tag{
+
+  .work-tag {
     font-size: 48px;
   }
+
   /* .work-tag:before{
     width: 20%;
     left: 40%;
   } */
-  .work-name{
+  .work-name {
     font-size: 24px;
   }
-  .work-company{
+
+  .work-company {
     font-size: 14px;
   }
-  .work-tag{
+
+  .work-tag {
     font-size: 28px;
   }
-  .thumbnail,.thumbnail:hover.thumbnail:focus,.thumbnail:active{
+
+  .thumbnail,
+  .thumbnail:hover.thumbnail:focus,
+  .thumbnail:active {
     padding: 75px 15px;
   }
-  .item{
+
+  .item {
     min-height: 700px;
   }
-  .test-img{
+
+  .test-img {
     width: 270px;
   }
-  .test-p{
+
+  .test-p {
     width: 80%;
     font-size: 16px;
     line-height: 40px;
   }
-  .test-h{
+
+  .test-h {
     font-size: 18px;
     margin: 70px auto
   }
-  .carousel-control{
+
+  .carousel-control {
     margin-top: -20vh;
   }
 }
 
 
 
-@media screen and (min-width: 992px) and (max-width: 1096px){
-  
-  .about-tag,.work-p,.test-p{
+@media screen and (min-width: 992px) and (max-width: 1096px) {
+
+  .about-tag,
+  .work-p,
+  .test-p {
     font-size: 12px !important;
     line-height: 30px;
   }
-.mac{
-display:none;
-}
+
+  .mac {
+    display: none;
+  }
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1024px){
-  .bottom-h3{
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .bottom-h3 {
     font-size: 18px !important;
   }
-.work-p,.about-tag,.test-p{
-	font-size: 14px !important;
+
+  .work-p,
+  .about-tag,
+  .test-p {
+    font-size: 14px !important;
   }
 }
 
 
 
 /* smaller laptops */
-@media screen and (min-width: 992px) and (max-width: 1282px){
-  .bottom-h3{
+@media screen and (min-width: 992px) and (max-width: 1282px) {
+  .bottom-h3 {
     font-size: 21px;
   }
-  .work-name{
+
+  .work-name {
     font-size: 18px;
   }
-  .work-company{
+
+  .work-company {
     font-size: 9px;
   }
-  .test-img{
+
+  .test-img {
     margin-top: 100px;
   }
-  .hero-tag{
+
+  .hero-tag {
     font-size: 32px;
   }
-  .about-tag,.work-p,.test-p{
+
+  .about-tag,
+  .work-p,
+  .test-p {
     font-size: 14px;
     line-height: 30px;
   }
-  .ui-thumb>h1{
+
+  .ui-thumb>h1 {
     font-size: 21px;
   }
-  .item{
+
+  .item {
     min-height: 500px;
   }
-  .test-hr{
+
+  .test-hr {
     width: 70%;
   }
 }
 
-@media screen and (min-width: 1090px) and (max-width: 1100px){
-  .test-hr{
+@media screen and (min-width: 1090px) and (max-width: 1100px) {
+  .test-hr {
     width: 71%;
   }
 }
 
-@media screen and (min-width: 1150px) and (max-width: 1199px){
-  .test-hr{
+@media screen and (min-width: 1150px) and (max-width: 1199px) {
+  .test-hr {
     width: 72%;
   }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1280px){
-  .test-hr{
+@media screen and (min-width: 1200px) and (max-width: 1280px) {
+  .test-hr {
     width: 73%;
   }
 }
 
 /* macbook air */
-@media screen and (min-width: 1440px){
-  .hero-tag{
+@media screen and (min-width: 1440px) {
+  .hero-tag {
     margin-top: 10vh;
     font-size: 42px;
     line-height: 70px;
   }
-  .about-tag,.work-p{
+
+  .about-tag,
+  .work-p {
     font-size: 18px;
     line-height: 40px;
   }
-  .contact-nav{
-    padding:10px 15px !important;
+
+  .contact-nav {
+    padding: 10px 15px !important;
     margin-top: 22px !important;
   }
-  .buttons{
+
+  .buttons {
     margin: 50px auto 65px;
   }
-  .socials>a{
+
+  .socials>a {
     margin-right: 35px;
     font-size: 1.2em;
   }
-  .hero-img{
+
+  .hero-img {
     margin-top: 10vh;
   }
-  .work-tag{
-    margin: 75px auto 50px; 
+
+  .work-tag {
+    margin: 75px auto 50px;
   }
-  .ui-thumb>h1{
+
+  .ui-thumb>h1 {
     font-size: 24px;
   }
-  .thumbnail,.thumbnail:hover,.thumbnail:focus,.thumbnail:active{
+
+  .thumbnail,
+  .thumbnail:hover,
+  .thumbnail:focus,
+  .thumbnail:active {
     margin-top: 10px;
     padding: 100px 15px;
   }
-  .work-name{
+
+  .work-name {
     font-size: 24px;
   }
-  .test-img{
+
+  .test-img {
     width: 200px;
     margin-top: 150px;
   }
-  .about-practo{
+
+  .about-practo {
     font-size: 18px !important;
   }
-  .item{
+
+  .item {
     min-height: 600px;
   }
-  .test-p{
+
+  .test-p {
     font-size: 18px;
     margin-top: 75px;
   }
-  .test-h{
+
+  .test-h {
     margin-top: 60px;
   }
-  .testimonial{
+
+  .testimonial {
     padding-bottom: 15px;
   }
-  .test-hr{
+
+  .test-hr {
     width: 68%;
   }
-  .bottom{
+
+  .bottom {
     width: 82%
   }
 }
 
-@media screen and (min-width: 1530px){
-  .test-hr{
+@media screen and (min-width: 1530px) {
+  .test-hr {
     width: 68.5%;
   }
 }
 
-@media screen and (min-width: 1550px){
-  .test-hr{
+@media screen and (min-width: 1550px) {
+  .test-hr {
     width: 69%;
   }
 }
-@media screen and (min-width: 1650px){
-  .test-hr{
+
+@media screen and (min-width: 1650px) {
+  .test-hr {
     width: 70%;
   }
 }
 
-@media screen and (min-width:1680px){
-  .container{
+@media screen and (min-width:1680px) {
+  .container {
     width: 70%;
   }
-  .ui-thumb{
+
+  .ui-thumb {
     margin-top: 50px auto !important;
   }
-  .navbar-brand>img{
+
+  .navbar-brand>img {
     width: 250px;
     margin-top: 10px;
   }
-  .navbar-default{
+
+  .navbar-default {
     padding: 15px 0;
   }
-  .navbar-right>li>a{
+
+  .navbar-right>li>a {
     font-size: 18px;
     text-transform: capitalize;
     margin-top: 40px;
   }
-  .contact-nav{
+
+  .contact-nav {
     padding: 15px !important;
     margin-top: 37px !important;
   }
-  .hero-tag{
+
+  .hero-tag {
     font-size: 54px;
     line-height: 80px;
     margin-bottom: 0 !important;
   }
-  .about-tag{
+
+  .about-tag {
     margin: 45px auto !important;
     line-height: 42px !important;
     font-size: 21px;
   }
-  .buttons{
+
+  .buttons {
     font-size: 16px;
     margin: 85px auto 85px !important;
     border-radius: 18px;
   }
-  .buttons>a{
+
+  .buttons>a {
     padding: 15px 20px !important;
   }
-  .socials>a{
+
+  .socials>a {
     font-size: 1.5em;
     margin-right: 50px;
   }
-  .hero-img{
+
+  .hero-img {
     margin-top: 10vh;
   }
-  .work{
-    padding-bottom: 0px; 
+
+  .work {
+    padding-bottom: 0px;
   }
-  .work-tag{
-    margin: 50px auto 50px; 
+
+  .work-tag {
+    margin: 50px auto 50px;
   }
-  .work-p{
+
+  .work-p {
     font-size: 21px;
     line-height: 42px;
   }
-  .thumbnail,.thumbnail:hover,.thumbnail:focus,.thumbnail:active{
+
+  .thumbnail,
+  .thumbnail:hover,
+  .thumbnail:focus,
+  .thumbnail:active {
     margin-top: 10px;
     padding: 90px 15px;
   }
-  .work-name{
+
+  .work-name {
     font-size: 24px;
   }
-  .work-company{
+
+  .work-company {
     font-size: 14px;
   }
-  .test-img{
+
+  .test-img {
     width: 200px;
     margin-top: 95px;
   }
-  .test-p{
+
+  .test-p {
     width: 90%;
     font-size: 21px;
     line-height: 40px;
   }
-  .item{
+
+  .item {
     min-height: 600px;
   }
-  .testimonial{
+
+  .testimonial {
     padding-bottom: 15px;
   }
-  .carousel-indicators>li,.carousel-indicators .active{
+
+  .carousel-indicators>li,
+  .carousel-indicators .active {
     margin-right: 20px;
     width: 1em;
     height: 1em;
   }
-  .test-h{
+
+  .test-h {
     font-size: 24px;
     text-transform: capitalize;
   }
-  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next,
+  .carousel-control .icon-prev {
     font-size: 2em;
   }
-  .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {
     right: 0%;
   }
-  .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {
     left: 0%;
   }
-  .bottom{
+
+  .bottom {
     /* width: %; */
     padding-left: 0;
     padding-bottom: 60px;
   }
-  .bottom-h3{
+
+  .bottom-h3 {
     font-size: 24px;
     /* margin-right: 30px */
   }
-  .test-hr{
+
+  .test-hr {
     border: 0.5px solid #151515;
     /* margin-top: 10vh; */
     width: 70%;
-    
-    margin: 5vh auto 
+
+    margin: 5vh auto
   }
-  .ui-thumb>h1{
+
+  .ui-thumb>h1 {
     font-size: 24px !important;
     padding: 20px 15px;
   }
-  .photo-h1{
+
+  .photo-h1 {
     margin-left: 15px;
     margin-top: 100px;
   }
-  .bottom-a{
+
+  .bottom-a {
     font-size: 21px;
     line-height: 30px;
     margin-top: 15px;
@@ -899,166 +1073,213 @@ display:none;
 
 /* macbook pro */
 
-@media screen and (min-width: 2560px){
-  .about-tag{
+@media screen and (min-width: 2560px) {
+  .about-tag {
     font-size: 33px;
   }
-  body{
+
+  body {
     font-size: 24px;
   }
-  .container{
+
+  .container {
     width: 100%;
   }
-  .navbar-right>li>a{
+
+  .navbar-right>li>a {
     margin-top: 75px;
-    margin-right:  125px;
+    margin-right: 125px;
     font-size: 25px;
   }
-  .navbar-brand>img{
+
+  .navbar-brand>img {
     width: 320px;
-    margin-top:43px;
+    margin-top: 43px;
     margin-left: 248px;
   }
-  .buttons{
+
+  .buttons {
     margin-top: 86px !important;
     font-size: 21px !important;
     border-radius: 18px;
   }
-  .buttons>a{
+
+  .buttons>a {
     padding: 26px 38px 20px 39px !important;
   }
-  .hero-tag{
+
+  .hero-tag {
     font-size: 93px !important;
     line-height: 135px !important;
     margin-top: 207px !important;
   }
-  .about-tag,.hero-tag,.buttons,.socials{
+
+  .about-tag,
+  .hero-tag,
+  .buttons,
+  .socials {
     margin-left: 248px !important;
   }
-  .socials{
+
+  .socials {
     margin-top: 118px;
   }
-  .socials>a{
+
+  .socials>a {
     margin-right: 74px;
     font-size: 1.2em;
   }
-  .about-tag{
+
+  .about-tag {
     font-size: 33px !important;
     line-height: 68px !important;
     margin-top: 76px;
   }
-  .hero-img{
+
+  .hero-img {
     margin-top: 200px;
     width: 869px;
     height: 805px;
     margin-right: 368px;
   }
-  .contact-nav{
+
+  .contact-nav {
     border-radius: 46px;
     border: 3px solid #ffffff;
     margin-top: 58px !important;
-    margin-right:  248px !important;
+    margin-right: 248px !important;
     padding: 30px 39px !important;
   }
-  .work-tag{
+
+  .work-tag {
     font-size: 57px;
     padding-bottom: 34px;
     margin: 130px auto;
   }
-  .work-container{
+
+  .work-container {
     width: 80%;
   }
-  .thumbnail,.thumbnail:hover,.thumbnail:focus,.thumbnail:active{
+
+  .thumbnail,
+  .thumbnail:hover,
+  .thumbnail:focus,
+  .thumbnail:active {
     margin-right: 45px;
     margin-left: 45px;
     padding: 200px 50px;
     height: 486px;
     width: 641px;
   }
-  .work-name{
+
+  .work-name {
     font-size: 36px;
   }
-  .work-company{
+
+  .work-company {
     font-size: 18px;
   }
-  .carousel,.test-hr{
+
+  .carousel,
+  .test-hr {
     width: 80%;
   }
-  .test-hr{
+
+  .test-hr {
     width: 80%;
     margin: 15vh auto 25px;
   }
-  .work-p{
+
+  .work-p {
     font-size: 30px;
     line-height: 54px;
     margin: -110px auto 30px;
   }
-  .carousel-indicators li,.carousel-indicators .active{
+
+  .carousel-indicators li,
+  .carousel-indicators .active {
     width: 22px;
     height: 22px;
   }
-  .test-img{
+
+  .test-img {
     width: 270px;
     margin-top: 280px;
   }
-  .test-p{
+
+  .test-p {
     margin-top: 150px;
     font-size: 36px;
     width: 80%;
     line-height: 69px;
   }
-  .test-h{
+
+  .test-h {
     font-size: 36px;
     margin-top: 75px;
   }
-  .item{
+
+  .item {
     min-height: 950px
   }
-  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next,
+  .carousel-control .icon-prev {
     font-size: 3em;
   }
-  .carousel-control{
+
+  .carousel-control {
     margin-top: 10vh
   }
-  .testimonial{
+
+  .testimonial {
     padding-bottom: 50px;
   }
-  .bottom{
+
+  .bottom {
     width: 100%;
     padding-left: 250px;
     padding-bottom: 90px;
   }
-  .bottom-h3{
+
+  .bottom-h3 {
     font-size: 54px;
     margin: 50px auto;
   }
-  .bottom-icons>a{
+
+  .bottom-icons>a {
     margin-right: 40px;
     font-size: 1.2em;
   }
-  .bottom-a{
+
+  .bottom-a {
     font-size: 36px;
     line-height: 69px;
     margin-top: 15px;
   }
-  .ui-thumb>h1{
+
+  .ui-thumb>h1 {
     font-size: 51px;
   }
-  .photo-h1{
+
+  .photo-h1 {
     margin-left: 50px;
   }
-  .ill-5{
+
+  .ill-5 {
     height: 450px !important;
   }
-  .photo-co>.row{
+
+  .photo-co>.row {
     width: 95%;
     margin-left: 50px;
   }
 }
 
-@media screen and (min-width: 3500px){
-  .App{
+@media screen and (min-width: 3500px) {
+  .App {
     display: none;
   }
 }
-
